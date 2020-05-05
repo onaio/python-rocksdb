@@ -28,7 +28,7 @@ setup(
     url="https://github.com/twmht/python-rocksdb",
     license='BSD License',
     setup_requires=['setuptools>=25', 'Cython>=0.20'],
-    install_requires=['setuptools>=25'],
+    install_requires=['setuptools>=25', 'Cython>=0.20'],
     package_dir={'rocksdb': 'rocksdb'},
     packages=find_packages('.'),
     ext_modules=[Extension(
